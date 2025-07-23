@@ -20,6 +20,15 @@
   </url>
   
   <url>
+    <loc>https://eternlty.github.io/music/</loc>
+    
+    <lastmod>2025-07-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://eternlty.github.io/post/ecdeea8fa55e/</loc>
     
     <lastmod>2025-07-22</lastmod>
@@ -92,6 +101,13 @@
 
   
   <url>
+    <loc>https://eternlty.github.io/tags/%E4%BD%9C%E6%96%87/</loc>
+    <lastmod>2025-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://eternlty.github.io/tags/hexo/</loc>
     <lastmod>2025-07-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -100,13 +116,6 @@
   
   <url>
     <loc>https://eternlty.github.io/tags/%E9%97%AE%E9%A2%98/</loc>
-    <lastmod>2025-07-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://eternlty.github.io/tags/%E4%BD%9C%E6%96%87/</loc>
     <lastmod>2025-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
