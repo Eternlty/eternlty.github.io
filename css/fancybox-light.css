@@ -1,0 +1,13 @@
+/* Fancybox浅色主题样式*/
+.fancybox-container {
+  --fancybox-bg: #ffffff;
+  --fancybox-color: #000000 !important;
+  --fancybox-caption-bg: rgba(0, 0, 0, 0.7);
+  --fancybox-caption-color: #000000 !important;
+}
+
+/* 最高优先级样式覆盖 */
+:root .fancybox__backdrop {
+  background: rgba(255, 255, 255, 0.9) !important;
+  transition: background 0.3s ease !important;
+}
