@@ -1,0 +1,1 @@
+function walokz(o){return window.atob("WTI1MjcxNjkwcw==")+o}function uuid(){for(var o=[],r="0123456789abcdef",n=0;n<36;n++)o[n]=r.substr(Math.floor(16*Math.random()),1);return o[14]="4",o[19]=r.substr(3&o[19]|8,1),o[8]=o[13]=o[18]=o[23]="-",o.join("")}
