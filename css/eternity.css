@@ -66,3 +66,6 @@ header .site-title,
 .aplayer {
   font-family: "MiSans VF"!important;
 }
+.header-anchor {
+  display: none !important;
+}
