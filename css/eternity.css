@@ -1,0 +1,68 @@
+/* 版权样式调整 */
+#post .post-copyright {
+    background: var(--eternity-card-bg);
+    padding: 1rem 1.3rem;
+    overflow: hidden;
+    border: var(--style-border);
+    border-width: 1px;
+    transition: none !important; /* 禁用过渡效果 */
+    position: relative;
+    margin: 1.5rem 0px 0.5rem;
+    border-radius: 8px;
+}
+
+/* 添加这段代码禁用悬停发光效果 */
+#post .post-copyright:hover,
+body #post .post-copyright:hover {
+    box-shadow: none;
+    text-shadow: none;
+    border-color: inherit;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+/* 版权样式调整end */
+:root {
+       --eternity-card-bg: #fff;
+       --global-font-size: 16px;
+}
+[data-theme='dark'] {
+       --eternity-card-bg: #1b1c20;
+}
+
+/* 字体样式设置 */
+body {
+  font-family: "MiSans VF", BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif !important;
+}
+
+/* 标题字体 - 思源宋体 */
+.post-title,
+.article-title,
+.site-title,
+body.pace-done .site-title,
+header .site-title,
+#site-title,
+.site-name {
+  font-family: "Noto Serif SC", "Source Han Serif SC", "Noto Serif", serif !important;
+  font-weight: 700 !important;
+}
+
+/* 强制覆盖任何可能的字体样式 */
+*[class*="post-title"],
+*[class*="article-title"],
+*[class*="site-name"],
+*[id*="title"] {
+  font-family: "Noto Serif SC", serif !important;
+}
+
+.container pre,
+.container code {
+  font-size: var(--global-font-size);
+  font-family: "Source Code Pro", Menlo, monospace, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+  border-radius: 6px;
+}
+
+.aplayer {
+  font-family: "MiSans VF"!important;
+}
