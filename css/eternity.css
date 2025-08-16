@@ -59,13 +59,10 @@ header .site-title,
 .container pre,
 .container code {
   font-size: var(--global-font-size);
-  font-family: "Source Code Pro", Menlo, monospace, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+  font-family: "Source Code Pro", "Noto Serif SC", monospace, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
   border-radius: 6px;
 }
 
 .aplayer {
   font-family: "MiSans VF"!important;
-}
-.header-anchor {
-  display: none !important;
 }
