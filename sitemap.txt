@@ -1,5 +1,5 @@
-https://eternlty.github.io/post/98c67b28560c/
 https://eternlty.github.io/exper/
+https://eternlty.github.io/post/8c02e5ed4da9/
 https://eternlty.github.io/recom/
 https://eternlty.github.io/post/ecdeea8fa55e/
 https://eternlty.github.io/shuoshuo/
@@ -9,8 +9,5 @@ https://eternlty.github.io/tags/
 https://eternlty.github.io/post/f0c65a80d976/
 https://eternlty.github.io/
 https://eternlty.github.io/tags/Markdown/
-https://eternlty.github.io/tags/Hexo/
-https://eternlty.github.io/tags/%E6%95%99%E7%A8%8B/
 https://eternlty.github.io/tags/%E4%BD%9C%E6%96%87/
 https://eternlty.github.io/categories/%E6%95%99%E7%A8%8B/
-https://eternlty.github.io/categories/%E6%95%99%E7%A8%8B/Hexo/

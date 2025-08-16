@@ -66,3 +66,25 @@ header .site-title,
 .aplayer {
   font-family: "MiSans VF"!important;
 }
+
+/* 设置KaTeX数学公式字体颜色为黑色 */
+.katex,
+.katex .katex-html,
+.katex .base,
+.katex .mord,
+.katex .mtable,
+.katex .mrel,
+.katex .mbin {
+  color: #000 !important;
+}
+
+/* 黑暗模式下保持白色 */
+[data-theme='dark'] .katex,
+[data-theme='dark'] .katex .katex-html,
+[data-theme='dark'] .katex .base,
+[data-theme='dark'] .katex .mord,
+[data-theme='dark'] .katex .mtable,
+[data-theme='dark'] .katex .mrel,
+[data-theme='dark'] .katex .mbin {
+  color: #ffffff !important;
+}
