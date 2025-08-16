@@ -2,17 +2,13 @@
 (function() {
   // 检查本地存储，判断今日是否已隐藏提示
   function shouldShowNotification() {
-    const lastHiddenDate = localStorage.getItem('blockerNotificationHidden');
-    if (!lastHiddenDate) return true;
-    
-    const today = new Date().toDateString();
-    const lastHidden = new Date(lastHiddenDate).toDateString();
-    return today !== lastHidden;
+    const lastHiddenDate = localStorage.getItem('blockerNotificationHiddenForever');
+    return !lastHiddenDate;
   }
   
-  // 标记今日不再显示
-  function setDoNotShowToday() {
-    localStorage.setItem('blockerNotificationHidden', new Date().toISOString());
+  // 标记不再显示
+  function setDoNotShow() {
+    localStorage.setItem('blockerNotificationHiddenForever', new Date().toISOString());
   }
   
   // 检查特定资源是否加载失败
@@ -79,7 +75,7 @@
           <div style="font-weight: 600; margin-bottom: 5px;">检测到内容被拦截</div>
           <div style="font-size: 14px; margin-bottom: 10px;">本站部分功能可能受广告拦截器或隐私插件影响，请考虑关闭相关插件以获得最佳体验。</div>
           <div style="display: flex; gap: 8px;">
-            <button id="notShowTodayBtn" style="
+            <button id="notShowBtn" style="
               background: #721c24;
               color: white;
               border: none;
@@ -87,7 +83,7 @@
               padding: 4px 8px;
               font-size: 12px;
               cursor: pointer;
-            ">今日不再显示</button>
+            ">不再显示</button>
           </div>
         </div>
       </div>
@@ -120,11 +116,11 @@
     
     document.body.appendChild(notification);
     
-    // 添加'今日不再显示'按钮事件
-    const notShowTodayBtn = document.getElementById('notShowTodayBtn');
-    if (notShowTodayBtn) {
-      notShowTodayBtn.onclick = function() {
-        setDoNotShowToday();
+    // 添加'不再显示'按钮事件
+    const notShowBtn = document.getElementById('notShowBtn');
+    if (notShowBtn) {
+      notShowBtn.onclick = function() {
+        setDoNotShow();
         document.body.removeChild(notification);
       };
     }
