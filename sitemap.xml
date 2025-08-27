@@ -137,13 +137,6 @@
 
   
   <url>
-    <loc>https://eternlty.top/tags/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2025-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://eternlty.top/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -151,14 +144,7 @@
   </url>
   
   <url>
-    <loc>https://eternlty.top/tags/%E4%BE%A7%E8%BE%B9%E6%A0%8F/</loc>
-    <lastmod>2025-08-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://eternlty.top/tags/%E5%AE%9A%E4%BD%8D%E4%BF%A1%E6%81%AF/</loc>
+    <loc>https://eternlty.top/tags/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -180,6 +166,20 @@
   
   <url>
     <loc>https://eternlty.top/tags/%E6%A0%A1%E5%9B%AD/</loc>
+    <lastmod>2025-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://eternlty.top/tags/%E4%BE%A7%E8%BE%B9%E6%A0%8F/</loc>
+    <lastmod>2025-08-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://eternlty.top/tags/%E5%AE%9A%E4%BD%8D%E4%BF%A1%E6%81%AF/</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -216,14 +216,14 @@
 
   
   <url>
-    <loc>https://eternlty.top/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <loc>https://eternlty.top/categories/Butterfly/</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://eternlty.top/categories/Butterfly/</loc>
+    <loc>https://eternlty.top/categories/%E9%9A%8F%E7%AC%94/</loc>
     <lastmod>2025-08-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
