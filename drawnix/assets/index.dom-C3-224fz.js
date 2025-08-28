@@ -1,1 +1,1 @@
-const r=document.createElement("i");function c(t){const n="&"+t+";";r.innerHTML=n;const e=r.textContent;return e.charCodeAt(e.length-1)===59&&t!=="semi"||e===n?!1:e}export{c as d};
+const r=document.createElement("i");function c(t){const e="&"+t+";";r.innerHTML=e;const n=r.textContent;return(59!==n.charCodeAt(n.length-1)||"semi"===t)&&n!==e&&n}export{c as d};
