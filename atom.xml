@@ -3,11 +3,11 @@
   <title>拾光碎笔</title>
   
   <subtitle>用零散的笔墨，捡拾时光里的碎片</subtitle>
-  <link href="https://eternlty.top/atom.xml" rel="self"/>
+  <link href="https://blog.eternlty.top/atom.xml" rel="self"/>
   
-  <link href="https://eternlty.top/"/>
+  <link href="https://blog.eternlty.top/"/>
   <updated>2025-08-26T11:42:40.000Z</updated>
-  <id>https://eternlty.top/</id>
+  <id>https://blog.eternlty.top/</id>
   
   <author>
     <name>刘晨翔</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Butterfly主题侧边栏欢迎卡片及个性定位信息教程</title>
-    <link href="https://eternlty.top/post/30abb8fc78b8/"/>
-    <id>https://eternlty.top/post/30abb8fc78b8/</id>
+    <link href="https://blog.eternlty.top/post/30abb8fc78b8/"/>
+    <id>https://blog.eternlty.top/post/30abb8fc78b8/</id>
     <published>2025-08-26T11:42:40.000Z</published>
     <updated>2025-08-26T11:42:40.000Z</updated>
     
@@ -28,19 +28,19 @@
     
     
     
-    <category term="魔改教程" scheme="https://eternlty.top/categories/%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B/"/>
+    <category term="魔改教程" scheme="https://blog.eternlty.top/categories/%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="侧边栏" scheme="https://eternlty.top/tags/%E4%BE%A7%E8%BE%B9%E6%A0%8F/"/>
+    <category term="侧边栏" scheme="https://blog.eternlty.top/tags/%E4%BE%A7%E8%BE%B9%E6%A0%8F/"/>
     
-    <category term="定位信息" scheme="https://eternlty.top/tags/%E5%AE%9A%E4%BD%8D%E4%BF%A1%E6%81%AF/"/>
+    <category term="定位信息" scheme="https://blog.eternlty.top/tags/%E5%AE%9A%E4%BD%8D%E4%BF%A1%E6%81%AF/"/>
     
   </entry>
   
   <entry>
     <title>修复配置Fancybox的cdn后造成的图片大图显示异常问题</title>
-    <link href="https://eternlty.top/post/d0c618bc828b/"/>
-    <id>https://eternlty.top/post/d0c618bc828b/</id>
+    <link href="https://blog.eternlty.top/post/d0c618bc828b/"/>
+    <id>https://blog.eternlty.top/post/d0c618bc828b/</id>
     <published>2025-08-23T11:42:40.000Z</published>
     <updated>2025-08-23T23:40:00.000Z</updated>
     
@@ -49,17 +49,17 @@
     
     
     
-    <category term="Butterfly" scheme="https://eternlty.top/categories/Butterfly/"/>
+    <category term="Butterfly" scheme="https://blog.eternlty.top/categories/Butterfly/"/>
     
     
-    <category term="问题解决" scheme="https://eternlty.top/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    <category term="问题解决" scheme="https://blog.eternlty.top/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
     
   </entry>
   
   <entry>
     <title>博主的收藏音乐清单</title>
-    <link href="https://eternlty.top/post/0d07ce47b32d/"/>
-    <id>https://eternlty.top/post/0d07ce47b32d/</id>
+    <link href="https://blog.eternlty.top/post/0d07ce47b32d/"/>
+    <id>https://blog.eternlty.top/post/0d07ce47b32d/</id>
     <published>2025-08-22T14:35:47.000Z</published>
     <updated>2025-08-22T14:35:47.000Z</updated>
     
@@ -68,17 +68,17 @@
     
     
     
-    <category term="杂文" scheme="https://eternlty.top/categories/%E6%9D%82%E6%96%87/"/>
+    <category term="杂文" scheme="https://blog.eternlty.top/categories/%E6%9D%82%E6%96%87/"/>
     
     
-    <category term="音乐" scheme="https://eternlty.top/tags/%E9%9F%B3%E4%B9%90/"/>
+    <category term="音乐" scheme="https://blog.eternlty.top/tags/%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
   <entry>
     <title>读完《龙族Ⅱ：悼亡者之瞳》后，谈谈我对夏弥的理解</title>
-    <link href="https://eternlty.top/post/480cc9cf9cab/"/>
-    <id>https://eternlty.top/post/480cc9cf9cab/</id>
+    <link href="https://blog.eternlty.top/post/480cc9cf9cab/"/>
+    <id>https://blog.eternlty.top/post/480cc9cf9cab/</id>
     <published>2025-08-18T10:36:42.000Z</published>
     <updated>2025-08-29T11:17:59.854Z</updated>
     
@@ -87,21 +87,21 @@
     
     
     
-    <category term="随笔" scheme="https://eternlty.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://blog.eternlty.top/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="感悟" scheme="https://eternlty.top/tags/%E6%84%9F%E6%82%9F/"/>
+    <category term="感悟" scheme="https://blog.eternlty.top/tags/%E6%84%9F%E6%82%9F/"/>
     
-    <category term="龙族" scheme="https://eternlty.top/tags/%E9%BE%99%E6%97%8F/"/>
+    <category term="龙族" scheme="https://blog.eternlty.top/tags/%E9%BE%99%E6%97%8F/"/>
     
-    <category term="人物" scheme="https://eternlty.top/tags/%E4%BA%BA%E7%89%A9/"/>
+    <category term="人物" scheme="https://blog.eternlty.top/tags/%E4%BA%BA%E7%89%A9/"/>
     
   </entry>
   
   <entry>
     <title>夏日之殇</title>
-    <link href="https://eternlty.top/post/ecdeea8fa55e/"/>
-    <id>https://eternlty.top/post/ecdeea8fa55e/</id>
+    <link href="https://blog.eternlty.top/post/ecdeea8fa55e/"/>
+    <id>https://blog.eternlty.top/post/ecdeea8fa55e/</id>
     <published>2024-04-03T14:00:00.000Z</published>
     <updated>2025-08-29T11:39:29.921Z</updated>
     
@@ -110,21 +110,21 @@
     
     
     
-    <category term="随笔" scheme="https://eternlty.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://blog.eternlty.top/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="纪念" scheme="https://eternlty.top/tags/%E7%BA%AA%E5%BF%B5/"/>
+    <category term="纪念" scheme="https://blog.eternlty.top/tags/%E7%BA%AA%E5%BF%B5/"/>
     
-    <category term="夏日" scheme="https://eternlty.top/tags/%E5%A4%8F%E6%97%A5/"/>
+    <category term="夏日" scheme="https://blog.eternlty.top/tags/%E5%A4%8F%E6%97%A5/"/>
     
-    <category term="校园" scheme="https://eternlty.top/tags/%E6%A0%A1%E5%9B%AD/"/>
+    <category term="校园" scheme="https://blog.eternlty.top/tags/%E6%A0%A1%E5%9B%AD/"/>
     
   </entry>
   
   <entry>
     <title>A new chapter</title>
-    <link href="https://eternlty.top/post/5fcfee082f97/"/>
-    <id>https://eternlty.top/post/5fcfee082f97/</id>
+    <link href="https://blog.eternlty.top/post/5fcfee082f97/"/>
+    <id>https://blog.eternlty.top/post/5fcfee082f97/</id>
     <published>2024-03-31T05:00:00.000Z</published>
     <updated>2024-03-31T05:46:03.000Z</updated>
     
@@ -133,10 +133,10 @@
     
     
     
-    <category term="随笔" scheme="https://eternlty.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://blog.eternlty.top/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="随笔" scheme="https://eternlty.top/tags/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="https://blog.eternlty.top/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
