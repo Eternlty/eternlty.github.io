@@ -6,7 +6,7 @@
   <link href="https://blog.eternlty.top/atom.xml" rel="self"/>
   
   <link href="https://blog.eternlty.top/"/>
-  <updated>2025-08-26T11:42:40.000Z</updated>
+  <updated>2025-09-01T13:11:11.938Z</updated>
   <id>https://blog.eternlty.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>九月份周记第一期</title>
+    <link href="https://blog.eternlty.top/post/1f1121ba099b/"/>
+    <id>https://blog.eternlty.top/post/1f1121ba099b/</id>
+    <published>2025-09-01T12:42:25.000Z</published>
+    <updated>2025-09-01T13:11:11.938Z</updated>
+    
+    
+    <summary type="html">这是九月的第一期周记，记录九月一日至九月七日的事情</summary>
+    
+    
+    
+    
+    <category term="随笔" scheme="https://blog.eternlty.top/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="校园" scheme="https://blog.eternlty.top/tags/%E6%A0%A1%E5%9B%AD/"/>
+    
+  </entry>
   
   <entry>
     <title>Butterfly主题侧边栏欢迎卡片及个性定位信息教程</title>
@@ -113,11 +132,11 @@
     <category term="随笔" scheme="https://blog.eternlty.top/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
+    <category term="校园" scheme="https://blog.eternlty.top/tags/%E6%A0%A1%E5%9B%AD/"/>
+    
     <category term="纪念" scheme="https://blog.eternlty.top/tags/%E7%BA%AA%E5%BF%B5/"/>
     
     <category term="夏日" scheme="https://blog.eternlty.top/tags/%E5%A4%8F%E6%97%A5/"/>
-    
-    <category term="校园" scheme="https://blog.eternlty.top/tags/%E6%A0%A1%E5%9B%AD/"/>
     
   </entry>
   
