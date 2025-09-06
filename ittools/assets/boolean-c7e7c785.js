@@ -1,0 +1,1 @@
+function r(r){try{return r(),!0}catch{return!1}}function t(r){return r?"Yes":"No"}export{t as b,r as i};

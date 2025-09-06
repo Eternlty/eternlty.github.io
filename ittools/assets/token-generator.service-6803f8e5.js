@@ -1,0 +1,1 @@
+import{cC as n}from"./index-81c38dfc.js";function f({withUppercase:t=!0,withLowercase:e=!0,withNumbers:r=!0,withSymbols:s=!1,length:i=64,alphabet:c}){const o=c??[t?"ABCDEFGHIJKLMOPQRSTUVWXYZ":"",e?"abcdefghijklmopqrstuvwxyz":"",r?"0123456789":"",s?".,;:!?./-\"'#{([-|\\@)]=}*+":""].join("");return n(o.repeat(i)).substring(0,i)}export{f as c};

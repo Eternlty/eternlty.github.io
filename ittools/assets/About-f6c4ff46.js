@@ -1,0 +1,1 @@
+import{d as a,u as n,o as e,c as s,_ as c}from"./index-81c38dfc.js";const u=a({__name:"About",setup:t=>(n({title:"About - IT Tools"}),(t,a)=>{const o=c;return e(),s(o,{markdown:t.$t("about.content"),"mx-auto":"","mt-50px":"","max-w-600px":""},null,8,["markdown"])})});export{u as default};

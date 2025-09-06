@@ -1,0 +1,1 @@
+function c(c){return c.replace(/#|\(|\)|,|\s/g,"_")}export{c};

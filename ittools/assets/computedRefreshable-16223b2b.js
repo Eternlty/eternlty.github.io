@@ -1,0 +1,1 @@
+import{n as s,bi as n,q as l,b as r,bj as d}from"./index-81c38dfc.js";function f(t,{throttle:a}={}){const e=s(!0);let o;const c=()=>e.value=!0;return a?n(t,c,{throttle:a}):l(t,c),[r(()=>(e.value&&(o=t(),e.value=!1),o)),c]}function i(t,a){const n=s(!0);let e;const o=()=>n.value=!0;return l(t,o),[d(async()=>(n.value&&(e=await t(),n.value=!1),e),a),o]}export{i as a,f as c};
