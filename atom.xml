@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="/feed/atom.xsl" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>拾光碎笔</title>
+  <title>Eternlty&#39;s 小宇宙</title>
   
-  <subtitle>用零散的笔墨，捡拾时光里的碎片</subtitle>
+  <subtitle>记录成长路上的点点滴滴</subtitle>
   <link href="https://blog.eternlty.top/atom.xml" rel="self"/>
   
   <link href="https://blog.eternlty.top/"/>
@@ -132,11 +132,11 @@
     <category term="随笔" scheme="https://blog.eternlty.top/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
+    <category term="校园" scheme="https://blog.eternlty.top/tags/%E6%A0%A1%E5%9B%AD/"/>
+    
     <category term="纪念" scheme="https://blog.eternlty.top/tags/%E7%BA%AA%E5%BF%B5/"/>
     
     <category term="夏日" scheme="https://blog.eternlty.top/tags/%E5%A4%8F%E6%97%A5/"/>
-    
-    <category term="校园" scheme="https://blog.eternlty.top/tags/%E6%A0%A1%E5%9B%AD/"/>
     
   </entry>
   
