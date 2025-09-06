@@ -9,4 +9,4 @@ Allow: /about/
 Disallow: /404.html
 Disallow: /shuoshuo/index.html
 
-Sitemap: https://eternlty.top/sitemap.xml
+Sitemap: https://blog.eternlty.top/sitemap.xml

@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.eternlty.top/pwa-icon-generator</loc>
+    
+    <lastmod>2025-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.eternlty.top/offline/</loc>
+    
+    <lastmod>2025-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.eternlty.top/manifest.json</loc>
+    
+    <lastmod>2025-09-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.eternlty.top/subscribe/</loc>
     
     <lastmod>2025-09-05</lastmod>
@@ -171,6 +198,13 @@
   </url>
   
   <url>
+    <loc>https://blog.eternlty.top/tags/%E6%A0%A1%E5%9B%AD/</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.eternlty.top/tags/%E4%BE%A7%E8%BE%B9%E6%A0%8F/</loc>
     <lastmod>2025-09-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -192,7 +226,14 @@
   </url>
   
   <url>
-    <loc>https://blog.eternlty.top/tags/%E6%A0%A1%E5%9B%AD/</loc>
+    <loc>https://blog.eternlty.top/tags/%E7%BA%AA%E5%BF%B5/</loc>
+    <lastmod>2025-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.eternlty.top/tags/%E5%A4%8F%E6%97%A5/</loc>
     <lastmod>2025-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -221,20 +262,6 @@
   
   <url>
     <loc>https://blog.eternlty.top/tags/%E9%9F%B3%E4%B9%90/</loc>
-    <lastmod>2025-09-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.eternlty.top/tags/%E7%BA%AA%E5%BF%B5/</loc>
-    <lastmod>2025-09-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.eternlty.top/tags/%E5%A4%8F%E6%97%A5/</loc>
     <lastmod>2025-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
