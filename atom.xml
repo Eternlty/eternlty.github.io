@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="/feed/atom.xsl" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Eternlty&#39;s 小宇宙</title>
+  
+  <subtitle>记录成长路上的点点滴滴</subtitle>
+  <link href="https://blog.eternlty.top/atom.xml" rel="self"/>
+  
+  <link href="https://blog.eternlty.top/"/>
+  <updated>2025-09-13T00:23:40.221Z</updated>
+  <id>https://blog.eternlty.top/</id>
+  
+  <author>
+    <name>刘晨翔</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>九月份周记第二期</title>
+    <link href="https://blog.eternlty.top/post/04bc67410377/"/>
+    <id>https://blog.eternlty.top/post/04bc67410377/</id>
+    <published>2025-09-12T23:06:18.000Z</published>
+    <updated>2025-09-13T00:23:40.221Z</updated>
+    
+    
+    <summary type="html">这是九月的第二期周记，记录九月八日至九月十三日的事情</summary>
+    
+    
+    
+    <category term="周记" scheme="https://blog.eternlty.top/categories/%E5%91%A8%E8%AE%B0/"/>
+    
+    
+    <category term="随笔" scheme="https://blog.eternlty.top/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="校园" scheme="https://blog.eternlty.top/tags/%E6%A0%A1%E5%9B%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>九月份周记第一期</title>
+    <link href="https://blog.eternlty.top/post/1f1121ba099b/"/>
+    <id>https://blog.eternlty.top/post/1f1121ba099b/</id>
+    <published>2025-09-01T12:42:25.000Z</published>
+    <updated>2025-09-13T00:32:50.396Z</updated>
+    
+    
+    <summary type="html">这是九月的第一期周记，记录九月一日至九月七日的事情</summary>
+    
+    
+    
+    
+    <category term="随笔" scheme="https://blog.eternlty.top/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+    <category term="校园" scheme="https://blog.eternlty.top/tags/%E6%A0%A1%E5%9B%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Butterfly主题侧边栏欢迎卡片及个性定位信息教程</title>
+    <link href="https://blog.eternlty.top/post/30abb8fc78b8/"/>
+    <id>https://blog.eternlty.top/post/30abb8fc78b8/</id>
+    <published>2025-08-26T11:42:40.000Z</published>
+    <updated>2025-08-26T11:42:40.000Z</updated>
+    
+    
+    <summary type="html">详细的技术教程，指导如何在Butterfly主题中添加来访者卡片个性定位信息功能，包括腾讯位置服务注册、PUG文件创建、CSS样式添加和主题配置修改等完整步骤。</summary>
+    
+    
+    
+    <category term="魔改教程" scheme="https://blog.eternlty.top/categories/%E9%AD%94%E6%94%B9%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="侧边栏" scheme="https://blog.eternlty.top/tags/%E4%BE%A7%E8%BE%B9%E6%A0%8F/"/>
+    
+    <category term="定位信息" scheme="https://blog.eternlty.top/tags/%E5%AE%9A%E4%BD%8D%E4%BF%A1%E6%81%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>修复配置Fancybox的cdn后造成的图片大图显示异常问题</title>
+    <link href="https://blog.eternlty.top/post/d0c618bc828b/"/>
+    <id>https://blog.eternlty.top/post/d0c618bc828b/</id>
+    <published>2025-08-23T11:42:40.000Z</published>
+    <updated>2025-08-23T23:40:00.000Z</updated>
+    
+    
+    <summary type="html">技术问题解决文档，记录了Butterfly主题下更换Fancybox CDN为阿里云后出现的图片显示异常问题，提供了清理缓存、添加版本号、删除CDN引用三种解决方案。</summary>
+    
+    
+    
+    <category term="Butterfly" scheme="https://blog.eternlty.top/categories/Butterfly/"/>
+    
+    
+    <category term="问题解决" scheme="https://blog.eternlty.top/tags/%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博主的收藏音乐清单</title>
+    <link href="https://blog.eternlty.top/post/0d07ce47b32d/"/>
+    <id>https://blog.eternlty.top/post/0d07ce47b32d/</id>
+    <published>2025-08-22T14:35:47.000Z</published>
+    <updated>2025-08-22T14:35:47.000Z</updated>
+    
+    
+    <summary type="html">分享一些我喜欢的音乐</summary>
+    
+    
+    
+    <category term="杂文" scheme="https://blog.eternlty.top/categories/%E6%9D%82%E6%96%87/"/>
+    
+    
+    <category term="音乐" scheme="https://blog.eternlty.top/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>夏日之殇</title>
+    <link href="https://blog.eternlty.top/post/ecdeea8fa55e/"/>
+    <id>https://blog.eternlty.top/post/ecdeea8fa55e/</id>
+    <published>2024-04-03T14:00:00.000Z</published>
+    <updated>2024-04-03T11:39:19.000Z</updated>
+    
+    
+    <summary type="html">一篇感人的校园随笔，回忆小学毕业时的离别场景，通过同学间的对话和毕业典礼的细节描写，表达了青春易逝、时光流转的淡淡忧伤和对初中生活的期待。</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.eternlty.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="校园" scheme="https://blog.eternlty.top/tags/%E6%A0%A1%E5%9B%AD/"/>
+    
+    <category term="纪念" scheme="https://blog.eternlty.top/tags/%E7%BA%AA%E5%BF%B5/"/>
+    
+    <category term="夏日" scheme="https://blog.eternlty.top/tags/%E5%A4%8F%E6%97%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>A new chapter</title>
+    <link href="https://blog.eternlty.top/post/5fcfee082f97/"/>
+    <id>https://blog.eternlty.top/post/5fcfee082f97/</id>
+    <published>2024-03-31T05:00:00.000Z</published>
+    <updated>2024-03-31T05:46:03.000Z</updated>
+    
+    
+    <summary type="html">青春无问东西，奋斗自成芳华</summary>
+    
+    
+    
+    <category term="随笔" scheme="https://blog.eternlty.top/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="随笔" scheme="https://blog.eternlty.top/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+</feed>

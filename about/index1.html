@@ -1,0 +1,387 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>关于 | Eternlty's 小宇宙</title><meta name="author" content="刘晨翔"><meta name="copyright" content="刘晨翔"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="关于我  嗨！陌生人，我是刘晨翔 生于 21 世纪初的学生党 江西老表 喜欢睡觉，玩原神，敲代码，享受生活 还喜欢可爱的 点此显示女孩子！ 完美主义者   人格类型 ISFP-T   最近在干什么  冥想   关于本站 function secondToDate(s){if(!s)return 0;let t=[0,0,0,0,0];if(s>=31536000){t[0]=parseInt(s">
+<meta property="og:type" content="website">
+<meta property="og:title" content="关于">
+<meta property="og:url" content="https://blog.eternlty.top/about/index1">
+<meta property="og:site_name" content="Eternlty's 小宇宙">
+<meta property="og:description" content="关于我  嗨！陌生人，我是刘晨翔 生于 21 世纪初的学生党 江西老表 喜欢睡觉，玩原神，敲代码，享受生活 还喜欢可爱的 点此显示女孩子！ 完美主义者   人格类型 ISFP-T   最近在干什么  冥想   关于本站 function secondToDate(s){if(!s)return 0;let t=[0,0,0,0,0];if(s>=31536000){t[0]=parseInt(s">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blog.eternlty.top/favicon2.webp">
+<meta property="article:published_time" content="2025-08-18T16:38:37.000Z">
+<meta property="article:modified_time" content="2025-08-30T00:12:34.173Z">
+<meta property="article:author" content="刘晨翔">
+<meta property="article:tag" content="博客,编程,技术,生活,前端,记录,学习笔记">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.eternlty.top/favicon2.webp"><script type="application/ld+json"></script><link rel="shortcut icon" href="/favicon2.jpg"><link rel="canonical" href="https://blog.eternlty.top/about/index1"><link rel="preconnect" href="https://cdnjs.onmicrosoft.cn"><link rel="stylesheet" href="/css/index.css?v=5.4.3"><link rel="stylesheet" href="https://cdnjs.onmicrosoft.cn/ajax/libs/font-awesome/6.7.2/css/all.min.css"><link rel="stylesheet" href="https://cdnjs.onmicrosoft.cn/ajax/libs/fancyapps-ui/6.0.17/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!true && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          const hour = new Date().getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (theme === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else theme === 'light' ? activateLightMode() : activateDarkMode()
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.json","preload":true,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":100,"highlightFullpage":true,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":200,"languages":{"author":"作者: 刘晨翔","link":"链接: ","source":"来源: Eternlty's 小宇宙","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdnjs.onmicrosoft.cn/ajax/libs/egjs-infinitegrid/4.12.0/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '关于',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'page'
+}</script><link rel="stylesheet" href="https://cdn-font.hyperos.mi.com/font/css?family=MiSans_VF:VF:Chinese_Simplify,Latin&amp;display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;700&amp;family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&amp;`;display=swap" media="all" onload="this.media=&quot;all&quot;"><link rel="stylesheet" href="/css/eternity.css"><link rel="stylesheet" href="/css/eternityMainColor.css"><meta name="theme-color" content="#49B1F5"><meta name="msapplication-TileColor" content="#49B1F5"><meta name="msapplication-TileImage" content="/img/pwa/icon-144x144.png"><link rel="apple-touch-icon" sizes="180x180" href="/img/pwa/icon-192x192.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon2.jpg"><link rel="icon" type="image/png" sizes="16x16" href="/favicon2.jpg"><link rel="manifest" href="/manifest.json"><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="Eternlty's 小宇宙" type="application/atom+xml">
+</head><body><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><div class="loading-img"></div><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.body.style.overflow = 'auto';
+    document.getElementById('loading-box').classList.add("loaded")
+  },
+  initLoading: () => {
+    document.body.style.overflow = '';
+    document.getElementById('loading-box').classList.remove("loaded")
+
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/favicon2.webp" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa fa-graduation-cap"></i><span> 整理</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa-solid fa-stethoscope"></i><span> 分享</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/subscribe/"><i class="fa-fw fas fa-rss"></i><span> 订阅</span></a></li><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://music.eternlty.top"><i class="fa-fw fas fa-compact-disc"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/recom/"><i class="fa-fw fa solid fa-heart"></i><span> 推荐</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 关于</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-user"></i><span> 站长资料</span></a></li><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fas fa-comment-dots"></i><span> 日常说说</span></a></li><li><a class="site-page child" href="/comments/"><i class="fa-fw fa-solid fa-chalkboard"></i><span> 留言白板</span></a></li></ul></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header" style="background-image: url(https://pan.xxbyq.net/f/gnRFe/cover001.webp);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><span class="site-name">Eternlty's 小宇宙</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa fa-graduation-cap"></i><span> 整理</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder"></i><span> 分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fa-solid fa-stethoscope"></i><span> 分享</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/subscribe/"><i class="fa-fw fas fa-rss"></i><span> 订阅</span></a></li><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" target="_blank" rel="noopener external nofollow noreferrer" href="https://music.eternlty.top"><i class="fa-fw fas fa-compact-disc"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/recom/"><i class="fa-fw fa solid fa-heart"></i><span> 推荐</span></a></li></ul></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> 关于</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-user"></i><span> 站长资料</span></a></li><li><a class="site-page child" href="/shuoshuo/"><i class="fa-fw fas fa-comment-dots"></i><span> 日常说说</span></a></li><li><a class="site-page child" href="/comments/"><i class="fa-fw fa-solid fa-chalkboard"></i><span> 留言白板</span></a></li></ul></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">关于</h1></div></header><main class="layout hide-aside" id="content-inner"><div id="page"><div class="container" id="article-container"><h2 id="关于我"><a class="markdownIt-Anchor" href="#关于我"></a> 关于我</h2>
+<ul>
+<li><strong>嗨！陌生人，我是刘晨翔</strong></li>
+<li><strong>生于 21 世纪初的学生党</strong></li>
+<li><strong>江西老表</strong></li>
+<li><strong>喜欢睡觉，玩原神，敲代码，享受生活</strong></li>
+<li><strong>还喜欢可爱的<span class="hide-inline"><button type="button" class="hide-button" style=""> 点此显示</button><span class="hide-content">女孩子！</span></span></strong></li>
+<li><strong>完美主义者</strong></li>
+</ul>
+<h3 id="人格类型"><a class="markdownIt-Anchor" href="#人格类型"></a> 人格类型</h3>
+<p><strong>ISFP-T</strong></p>
+<p><a target="_blank" rel="external nofollow noopener noreferrer" href="/go.html?u=aHR0cHM6Ly93d3cuMTZwZXJzb25hbGl0aWVzLmNvbS9jaC9pc2ZwLSVFNCVCQSVCQSVFNiVBMCVCQw"><img src="https://pan.xxbyq.net/f/Z5rT0/isfp.svg" alt="ISFP人格 (冒险家).webp"></a></p>
+<h3 id="最近在干什么"><a class="markdownIt-Anchor" href="#最近在干什么"></a> 最近在干什么</h3>
+<ul>
+<li><strong>冥想</strong></li>
+</ul>
+<h2 id="关于本站"><a class="markdownIt-Anchor" href="#关于本站"></a> 关于本站</h2>
+<script>function secondToDate(s){if(!s)return 0;let t=[0,0,0,0,0];if(s>=31536000){t[0]=parseInt(s/31536000);s%=31536000}if(s>=86400){t[1]=parseInt(s/86400);s%=86400}if(s>=3600){t[2]=parseInt(s/3600);s%=3600}if(s>=60){t[3]=parseInt(s/60);s%=60}if(s>0)t[4]=s;return t}function setTime(){let c=Math.round(new Date(Date.UTC(2024,3,1,0,0,0)).getTime()/1000),t=Math.round((new Date().getTime()+28800000)/1000),ct=secondToDate(t-c),cth=ct[0]+" 年 "+ct[1]+" 天 "+ct[2]+" 时 "+ct[3]+" 分 "+ct[4]+" 秒";document.getElementById("htmer_time").innerHTML=cth}setInterval(setTime,1000)</script>
+<h3 id="本站信息"><a class="markdownIt-Anchor" href="#本站信息"></a> 本站信息</h3>
+<ul>
+<li><strong>基于 <a target="_blank" rel="external nofollow noopener noreferrer" href="/go.html?u=aHR0cHM6Ly9oZXhvLmlvL3poLWNuLw">Hexo</a> 框架搭建</strong></li>
+<li><strong><a target="_blank" rel="external nofollow noopener noreferrer" href="/go.html?u=aHR0cHM6Ly9naXRodWIuY29tL2plcnJ5YzEyNy9oZXhvLXRoZW1lLWJ1dHRlcmZseQ">butterfly</a> 主题</strong></li>
+<li><strong>本博客始建于 2024 年 04 月 01 日</strong></li>
+<li><strong>距今已艰难运行了&nbsp;<span id="htmer_time"></span></strong></li>
+</ul>
+<h3 id="昵称寓意"><a class="markdownIt-Anchor" href="#昵称寓意"></a> 昵称寓意</h3>
+<p><strong>“拾光碎笔”</strong> 是我为本站取的昵称，它的寓意是：</p>
+<ul>
+<li><strong>“拾光”</strong> 指的是我喜欢收集、整理、分享一些有趣的东西，就像拾光一样，把它们收集起来，整理成一个整体。</li>
+<li><strong>“碎笔”</strong> 指的是我喜欢用零碎的时间、零碎的想法、零碎的情感，来写这篇博客。</li>
+</ul>
+<p>合起来就是：用这个带着“少个点”小特点的地方，记录些东西，同时也不把内容填得太满，留些空隙给人和时间去琢磨，反而更有味道。</p>
+<h2 id="与我联系"><a class="markdownIt-Anchor" href="#与我联系"></a> 与我联系</h2>
+<ul>
+<li>✉️ <a href="mailto:2177522251@qq.com" rel="external nofollow noreferrer">邮箱</a></li>
+<li>📝 <a href="/comment">留言板</a></li>
+</ul>
+<h2 id="结语"><a class="markdownIt-Anchor" href="#结语"></a> 结语</h2>
+<blockquote>
+<p>“生命最美好的样子，就是做自己喜欢的事，成为自己想成为的人。”</p>
+</blockquote>
+<hr>
+<p><em>更新于 2025年8月21日</em></p>
+</div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">©&nbsp;2024 - 2025 By 刘晨翔</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.4.3</a></span></div><div class="footer_custom_text"><a href="javascript:toRandomPost()" rel="external nofollow noreferrer" style="margin-left: 10px;">随机前往</a> | <a href="https://icp.gov.moe/?keyword=20250537" rel="external nofollow noreferrer" target="_blank">萌ICP备20250537号</a> <span style="margin-left: 10px;" <="" span=""></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.4.3"></script><script src="/js/main.js?v=5.4.3"></script><script src="https://cdnjs.onmicrosoft.cn/ajax/libs/fancyapps-ui/6.0.17/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>(async () => {
+  const showKatex = () => {
+    document.querySelectorAll('#article-container .katex').forEach(el => el.classList.add('katex-show'))
+  }
+
+  if (!window.katex_js_css) {
+    window.katex_js_css = true
+    await btf.getCSS('https://registry.npmmirror.com/katex/0.16.22/files/dist/katex.min.css')
+    if (true) {
+      await btf.getScript('https://registry.npmmirror.com/katex/0.16.22/files/dist/contrib/copy-tex.min.js')
+    }
+  }
+
+  showKatex()
+})()</script></div><script>window.newestComments = {
+  changeContent: content => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<code>.*?<\/code>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g, "") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0, 150) + '...'
+    }
+    return content
+  },
+
+  generateHtml: (array, ele) => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class="aside-list-item">'
+
+        if (false && array[i].avatar) {
+          const imgAttr = 'src'
+          const lazyloadNative = ''
+          result += `<a href="${array[i].url}" class="thumbnail"><img ${imgAttr}="${array[i].avatar}" alt="${array[i].nick}" ${lazyloadNative}></a>`
+        }
+
+        result += `<div class="content">
+        <a class="comment" href="${array[i].url}" title="${array[i].content}">${array[i].content}</a>
+        <div class="name"><span>${array[i].nick} / </span><time datetime="${array[i].date}">${btf.diffDate(array[i].date, true)}</time></div>
+        </div></div>`
+      }
+    } else {
+      result += '暂无评论'
+    }
+
+    ele.innerHTML = result
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh(ele)
+  },
+
+  newestCommentInit: (name, getComment) => {
+    const $dom = document.querySelector('#card-newest-comments .aside-list')
+    if ($dom) {
+      const data = btf.saveToLocal.get(name)
+      if (data) {
+        newestComments.generateHtml(JSON.parse(data), $dom)
+      } else {
+        getComment($dom)
+      }
+    }
+  },
+
+  run: (name, getComment) => {
+    newestComments.newestCommentInit(name, getComment)
+    btf.addGlobalFn('pjaxComplete', () => newestComments.newestCommentInit(name, getComment), name)
+  }
+}</script><script>window.addEventListener('load', () => {
+  const keyName = 'twikoo-newest-comments'
+  const { changeContent, generateHtml, run } = window.newestComments
+
+  const getComment = ele => {
+    const runTwikoo = () => {
+      twikoo.getRecentComments({
+        envId: 'https://pinglunl.netlify.app/.netlify/functions/twikoo',
+        region: '',
+        pageSize: 3,
+        includeReply: true
+      }).then(res => {
+        const twikooArray = res.map(e => {
+          return {
+            'content': changeContent(e.comment),
+            'avatar': e.avatar,
+            'nick': e.nick,
+            'url': e.url + '#' + e.id,
+            'date': new Date(e.created).toISOString()
+          }
+        })
+
+        btf.saveToLocal.set(keyName, JSON.stringify(twikooArray), 10/(60*24))
+        generateHtml(twikooArray, ele)
+      }).catch(err => {
+        console.error(err)
+        ele.textContent= "无法获取评论，请确认相关配置是否正确"
+      })
+    }
+
+    if (typeof twikoo === 'object') {
+      runTwikoo()
+    } else {
+      btf.getScript('https://cdnjs.onmicrosoft.cn/ajax/libs/twikoo/1.6.44/twikoo.all.min.js').then(runTwikoo)
+    }
+  }
+
+  run(keyName, getComment)
+})</script><script> if ('serviceWorker' in navigator) { window.addEventListener('load', function() { navigator.serviceWorker.register('/simple-sw.js') .then(function(registration) { console.log('Service Worker 注册成功:', registration.scope); }) .catch(function(error) { console.log('Service Worker 注册失败:', error); }); }); } </script><script type="text/javascript" src="/js/eternity.js"></script><script src="/js/random.js"></script><script src="/js/load-time.js"></script><script defer="defer" id="ribbon" src="https://cdnjs.onmicrosoft.cn/ajax/libs/butterfly-extsrc/1.1.4/canvas-ribbon.min.js" size="150" alpha="0.5" zindex="-1" mobile="true" data-click="false"></script><script id="click-heart" src="https://cdnjs.onmicrosoft.cn/ajax/libs/butterfly-extsrc/1.1.4/click-heart.min.js" async="async" mobile="false"></script><link rel="stylesheet" href="https://cdnjs.onmicrosoft.cn/ajax/libs/aplayer/1.10.1/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdnjs.onmicrosoft.cn/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script><script src="https://cdnjs.onmicrosoft.cn/ajax/libs/butterfly-extsrc/1.1.4/metingjs/dist/Meting.min.js"></script><script>(() => {
+  const destroyAplayer = () => {
+    if (window.aplayers) {
+      for (let i = 0; i < window.aplayers.length; i++) {
+        if (!window.aplayers[i].options.fixed) {
+          window.aplayers[i].destroy()
+        }
+      }
+    }
+  }
+
+  const runMetingJS = () => {
+    typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+  }
+
+  btf.addGlobalFn('pjaxSend', destroyAplayer, 'destroyAplayer')
+  btf.addGlobalFn('pjaxComplete', loadMeting, 'runMetingJS')
+})()</script><script src="https://cdnjs.onmicrosoft.cn/ajax/libs/pjax/0.2.8/pjax.min.js"></script><script>(() => {
+  const pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+  window.pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: pjaxSelectors,
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+  })
+
+  const triggerPjaxFn = (val) => {
+    if (!val) return
+    Object.values(val).forEach(fn => fn())
+  }
+
+  document.addEventListener('pjax:send', () => {
+    // removeEventListener
+    btf.removeGlobalFnEvent('pjaxSendOnce')
+    btf.removeGlobalFnEvent('themeChange')
+
+    // reset readmode
+    const $bodyClassList = document.body.classList
+    if ($bodyClassList.contains('read-mode')) $bodyClassList.remove('read-mode')
+
+    triggerPjaxFn(window.globalFn.pjaxSend)
+  })
+
+  document.addEventListener('pjax:complete', () => {
+    btf.removeGlobalFnEvent('pjaxCompleteOnce')
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+      const newScript = document.createElement('script')
+      const content = item.text || item.textContent || item.innerHTML || ""
+      Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+      newScript.appendChild(document.createTextNode(content))
+      item.parentNode.replaceChild(newScript, item)
+    })
+
+    triggerPjaxFn(window.globalFn.pjaxComplete)
+  })
+
+  document.addEventListener('pjax:error', e => {
+    if (e.request.status === 404) {
+      const usePjax = true
+      true
+        ? (usePjax ? pjax.loadUrl('/404') : window.location.href = '/404')
+        : window.location.href = e.request.responseURL
+    }
+  })
+})()</script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"></div></div><hr><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=5.4.3"></script></div></div></body></html>
