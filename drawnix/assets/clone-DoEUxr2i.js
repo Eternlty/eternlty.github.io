@@ -1,1 +1,1 @@
-import{c as r}from"./graph-CZ97irWc.js";var e=4;function a(o){return r(o,e)}export{a as c};
+import{c as r}from"./graph-CZ97irWc.js";var e=4;function a(a){return r(a,e)}export{a as c};
