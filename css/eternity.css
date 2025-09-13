@@ -1,7 +1,556 @@
-#post .post-copyright{background:var(--card-bg);padding:1rem 1.3rem;overflow:hidden;border:var(--style-border);border-width:1px;transition:none!important;position:relative;margin:1.5rem 0 .5rem;border-radius:8px}#post .post-copyright:active,#post .post-copyright:hover,body #post .post-copyright:active,body #post .post-copyright:hover{box-shadow:none;text-shadow:none;border-color:none!important;outline:0;-webkit-box-shadow:none;-moz-box-shadow:none}body{font-family:"MiSans VF",apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Lato,Roboto,"PingFang SC","Microsoft YaHei",sans-serif}#page .page-title,#site-title,.article-title,.post-title,.site-name,.site-title,body.pace-done .site-title,header .site-title{font-family:"Noto Serif SC","Source Han Serif SC","Noto Serif",apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Lato,Roboto,"PingFang SC","Microsoft YaHei",sans-serif;font-weight:700!important}[class*=article-title],[class*=h1],[class*=post-title],[class*=site-name],[id*=title]{font-family:"Noto Serif SC",serif!important}.container code,.container pre{font-size:var(--global-font-size);font-family:"Source Code Pro","Noto Serif SC",monospace,'PingFang SC','Microsoft YaHei',sans-serif!important;border-radius:6px}.katex,.katex .base,.katex .katex-html,.katex .mbin,.katex .mord,.katex .mrel,.katex .mtable{color:#000!important}[data-theme=dark] .katex,[data-theme=dark] .katex .base,[data-theme=dark] .katex .katex-html,[data-theme=dark] .katex .mbin,[data-theme=dark] .katex .mord,[data-theme=dark] .katex .mrel,[data-theme=dark] .katex .mtable{color:#fff!important}.twikoo .el-textarea textarea{min-height:130px!important;background-size:90px}.twikoo .el-textarea .el-input__count{color:rgba(255,255,255,0)!important;background:0 0}.tk-content img{max-width:10%!important}#nav ::after{background-color:transparent!important}:root{--eternity-border:#e3e3e3;--card-bg:linear-gradient(-45deg, rgba(255, 255, 255, .7), 
+/* 版权样式调整 */
+#post .post-copyright {
+    background: var(--card-bg);
+    padding: 1rem 1.3rem;
+    overflow: hidden;
+    border: var(--style-border);
+    border-width: 1px;
+    transition: none !important; /* 禁用过渡效果 */
+    position: relative;
+    margin: 1.5rem 0px 0.5rem;
+    border-radius: 8px;
+}
+
+/* 添加这段代码禁用悬停发光效果和边框颜色变化 */
+#post .post-copyright:hover,
+body #post .post-copyright:hover,
+#post .post-copyright:active,
+body #post .post-copyright:active {
+    box-shadow: none;
+    text-shadow: none;
+    border-color: none !important;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+}
+
+
+/* 字体样式设置 */
+body {
+  font-family: "MiSans VF", apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+/* 标题字体 - 思源宋体 */
+.post-title,
+.article-title,
+.site-title,
+body.pace-done .site-title,
+header .site-title,
+#page .page-title,
+#site-title,
+.site-name {
+  font-family: "Noto Serif SC", "Source Han Serif SC", "Noto Serif",apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-weight: 700 !important;
+}
+
+/* 强制覆盖任何可能的字体样式 */
+*[class*="post-title"],
+*[class*="article-title"],
+*[class*="site-name"],
+*[class*="h1"],
+*[id*="title"] {
+  font-family: "Noto Serif SC", serif !important;
+}
+
+.container pre,
+.container code {
+  font-size: var(--global-font-size);
+  font-family: "Source Code Pro", "Noto Serif SC", monospace, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+  border-radius: 6px;
+}
+/* 设置KaTeX数学公式字体颜色为黑色 */
+.katex,
+.katex .katex-html,
+.katex .base,
+.katex .mord,
+.katex .mtable,
+.katex .mrel,
+.katex .mbin {
+  color: #000 !important;
+}
+
+/* 黑暗模式下保持白色 */
+[data-theme='dark'] .katex,
+[data-theme='dark'] .katex .katex-html,
+[data-theme='dark'] .katex .base,
+[data-theme='dark'] .katex .mord,
+[data-theme='dark'] .katex .mtable,
+[data-theme='dark'] .katex .mrel,
+[data-theme='dark'] .katex .mbin {
+  color: #ffffff !important;
+}
+/* twikoo评论美化 */
+
+/* 自定义twikoo评论输入框高度 */
+.twikoo .el-textarea textarea {
+  min-height: 130px !important;
+  background-size: 90px;
+}
+.twikoo .el-textarea .el-input__count {
+    color: rgba(255, 255, 255, 0) !important;
+    background: transparent;
+}
+.tk-content img {
+  max-width: 10% !important;
+}
+
+/* 去除导航栏选项中底下的蓝条 */
+#nav *::after{
+    background-color: transparent!important;
+}
+
+:root {
+    
+    --eternity-border: #e3e3e3;
+    --card-bg: linear-gradient(-45deg, rgba(255, 255, 255, .7), 
              rgba(255, 255, 255, .8), 
              rgba(255, 255, 255, .8), 
-             rgba(255, 255, 255, .7))!important;--eternity-card-bg:#e3e3e3!important}[data-theme=dark]{--eternity-border:1px solid #42444a;--font-color:rgba(255, 255, 255, 0.7);--card-bg:linear-gradient(-45deg, rgba(24, 40, 72, .7), 
+             rgba(255, 255, 255, .7))!important;
+    --eternity-card-bg: #e3e3e3 !important;
+}
+[data-theme='dark'] {
+
+    --eternity-border: 1px solid #42444a;
+    --font-color: rgba(255, 255, 255, 0.7);
+    --card-bg: linear-gradient(-45deg, rgba(24, 40, 72, .7), 
              rgba(35, 37, 58, .8), 
              rgba(35, 37, 58, .8), 
-             rgba(24, 40, 72, .7))!important;--eternity-card-bg:#3e3f41!important}:root{--font-bg:#fff;--font-color:#4c4948}[data-theme=dark]{--font-bg:#0d0d0d;--font-color:rgba(255, 255, 255, 0.7)}#footer{border-top:1px solid var(--eternity-card-border);background-color:var(--font-bg)!important}#footer-wrap,#footer-wrap a{color:var(--font-color)}#footer a{color:var(--font-color);transition:.3s ease-in-out}#ft{max-width:1200px;margin:0 auto 12px;display:flex;color:var(--font-color)!important;text-align:left;flex-wrap:wrap}#footer>*{position:relative;color:var(--font-color)!important}#bber-talk{background:linear-gradient(-45deg,rgba(255,255,255,.7),rgba(255,255,255,.8),rgba(255,255,255,.8),rgba(255,255,255,.7));backdrop-filter:blur(10px)}[data-theme=dark] #bber-talk{background:linear-gradient(-45deg,rgba(24,40,72,.7),rgba(35,37,58,.8),rgba(35,37,58,.8),rgba(24,40,72,.7));backdrop-filter:blur(10px)}#aside-content>.card-widget.card-info{position:relative;z-index:1;background:linear-gradient(-45deg,rgba(255,255,255,.7),rgba(255,255,255,.8),rgba(255,255,255,.8),rgba(255,255,255,.7));backdrop-filter:blur(10px)}#aside-content>.card-widget.card-info::before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,.3),rgba(255,255,255,.6),rgba(255,255,255,.7));background-size:cover;background-repeat:no-repeat;opacity:.5;transition:opacity .8s;z-index:-1}[data-theme=dark] #aside-content>.card-widget.card-info::before{background:linear-gradient(to bottom,rgba(24,40,72,.1),rgba(35,37,58,.3),rgba(35,37,58,.6),rgba(24,40,72,.7));background-size:cover;background-repeat:no-repeat}#aside-content>.card-widget.card-info:hover::before{opacity:1}#aside-content div.card-widget.card-info .avatar-img{transition:opacity .3s ease}#card-info-btn:hover,#card-info-btn:hover .icon,#card-info-btn:hover span{transform:scale(1.1)}[data-theme=dark] #aside-content>.card-widget.card-info{background:linear-gradient(-45deg,rgba(24,40,72,.6),rgba(35,37,58,.5),rgba(35,37,58,.5),rgba(24,40,72,.6));backdrop-filter:blur(10px)}#aside-content>.card-widget.card-announcement{background:linear-gradient(-45deg,rgba(255,255,255,.7),rgba(255,255,255,.8),rgba(255,255,255,.8),rgba(255,255,255,.7));backdrop-filter:blur(10px)}[data-theme=dark] #aside-content>.card-widget.card-announcement{background:linear-gradient(-45deg,rgba(24,40,72,.7),rgba(35,37,58,.8),rgba(35,37,58,.8),rgba(24,40,72,.7));backdrop-filter:blur(10px)}#aside-content>.sticky_layout>.card-widget{background:linear-gradient(-45deg,rgba(255,255,255,.7),rgba(255,255,255,.8),rgba(255,255,255,.8),rgba(255,255,255,.7));backdrop-filter:blur(10px)}[data-theme=dark] #aside-content>.sticky_layout>.card-widget{background:linear-gradient(-45deg,rgba(24,40,72,.7),rgba(35,37,58,.8),rgba(35,37,58,.8),rgba(24,40,72,.7));backdrop-filter:blur(10px)}#aside-content>.card-widget.welcomeBoxClass{background:linear-gradient(-45deg,rgba(255,255,255,.7),rgba(255,255,255,.8),rgba(255,255,255,.8),rgba(255,255,255,.7));backdrop-filter:blur(10px)}[data-theme=dark] #aside-content>.card-widget.welcomeBoxClass{background:linear-gradient(-45deg,rgba(24,40,72,.7),rgba(35,37,58,.8),rgba(35,37,58,.8),rgba(24,40,72,.7));backdrop-filter:blur(10px)}#recent-posts>#noticeList{background:linear-gradient(-45deg,rgba(255,255,255,.7),rgba(255,255,255,.8),rgba(255,255,255,.8),rgba(255,255,255,.7));backdrop-filter:blur(10px)}[data-theme=dark] #recent-posts>#noticeList{background:linear-gradient(-45deg,rgba(24,40,72,.7),rgba(35,37,58,.8),rgba(35,37,58,.8),rgba(24,40,72,.7));backdrop-filter:blur(10px)}#aside-content>.card-widget.card-info>#card-info-btn{background-color:#3eb8be;border-radius:10px}.layout>#post{background:linear-gradient(-45deg,rgba(255,255,255,.7),rgba(255,255,255,.8),rgba(255,255,255,.8),rgba(255,255,255,.7));backdrop-filter:blur(10px)}[data-theme=dark] .layout>#post{background:linear-gradient(-45deg,rgba(24,40,72,.7),rgba(35,37,58,.8),rgba(35,37,58,.8),rgba(24,40,72,.7));backdrop-filter:blur(10px)}[data-theme=dark] #recent-posts>.recent-post-item{background:linear-gradient(-45deg,rgba(24,40,72,.7),rgba(35,37,58,.8),rgba(35,37,58,.8),rgba(24,40,72,.7));backdrop-filter:blur(10px)}.layout>#page{background:linear-gradient(-45deg,rgba(255,255,255,.7),rgba(255,255,255,.8),rgba(255,255,255,.8),rgba(255,255,255,.7));backdrop-filter:blur(10px)}[data-theme=dark] .layout>#page{background:linear-gradient(-45deg,rgba(24,40,72,.7),rgba(35,37,58,.8),rgba(35,37,58,.8),rgba(24,40,72,.7));backdrop-filter:blur(10px)}.layout>#archive{background:linear-gradient(-45deg,rgba(255,255,255,.7),rgba(255,255,255,.8),rgba(255,255,255,.8),rgba(255,255,255,.7));backdrop-filter:blur(10px)}[data-theme=dark] .layout>#archive{background:linear-gradient(-45deg,rgba(24,40,72,.7),rgba(35,37,58,.8),rgba(35,37,58,.8),rgba(24,40,72,.7));backdrop-filter:blur(10px)}.layout>#category{background:linear-gradient(-45deg,rgba(255,255,255,.7),rgba(255,255,255,.8),rgba(255,255,255,.8),rgba(255,255,255,.7));backdrop-filter:blur(10px)}[data-theme=dark] .layout>#category{background:linear-gradient(-45deg,rgba(24,40,72,.7),rgba(35,37,58,.8),rgba(35,37,58,.8),rgba(24,40,72,.7));backdrop-filter:blur(10px)}.layout>#tag{background:linear-gradient(-45deg,rgba(255,255,255,.7),rgba(255,255,255,.8),rgba(255,255,255,.8),rgba(255,255,255,.7));backdrop-filter:blur(10px)}[data-theme=dark] .layout>#tag{background:linear-gradient(-45deg,rgba(24,40,72,.7),rgba(35,37,58,.8),rgba(35,37,58,.8),rgba(24,40,72,.7));backdrop-filter:blur(10px)}.layout.hide-aside{max-width:1200px}h [data-theme=dark] .social-icon i{color:rgba(188,188,188)!important}[data-theme=dark] .chatName{color:rgba(188,188,188)}[data-theme=dark] .section-title{color:rgba(188,188,188,.5)!important}[data-theme=dark] #post .post-copyright{border-color:rgba(32,37,58,.3)!important}#welcome-info{overflow:hidden;--icat-card-welcome:#49b1f5}#welcome-info .welcome-time{width:100%;margin:12px 0 0;display:inline-flex}#welcome-info .welcome-message{width:100%;margin-bottom:8px;display:inline-flex}#welcome-info .welcome-region{background:var(--icat-background);border:var(--style-border);color:var(--icat-fontcolor);border-radius:8px;display:inline-flex;align-items:center;padding:6px 10px;margin:6px 0}.ip-address{filter:blur(2px);cursor:default;transition:filter .5s ease;color:#49b1f5}.ip-address:hover{filter:none}#card-poem{display:flex;flex-direction:column;padding:.5rem!important;min-height:130px}div#poem_sentence{text-align:center;font-family:"Noto Serif SC","Source Han Serif SC",serif;font-size:1.1rem;line-height:1.4;margin-bottom:.5rem;padding:1rem;border-radius:12px;background:var(--eternity-secondbg)}div#poem_info{display:flex;font-size:.5rem;justify-content:center;flex-wrap:wrap}div#poem_author{font-size:.8rem;order:1;padding:2px;margin-left:8px}div#poem_dynasty{font-size:.8rem;order:0;padding:2px 4px 2px 6px;background:var(--eternity-card-btn-bg);color:var(--eternity-fontcolor);border-radius:8px}.loading-img{background:url(/favicon2.webp) no-repeat center center;background-size:cover}.copyright{text-align:center!important;width:100%;margin:0 auto;display:block}
+             rgba(24, 40, 72, .7))!important;
+    --eternity-card-bg: #3e3f41 !important;
+}
+
+/* 自定义底部 */
+
+:root {
+    --font-bg: #fff;
+    --font-color: #4c4948;
+}
+[data-theme='dark'] {
+    --font-bg: #0d0d0d;
+    --font-color: rgba(255, 255, 255, 0.7);
+}
+
+/* 自定义底部  start */
+
+#footer {
+    border-top: 1px solid var(--eternity-card-border);
+    background-color: var(--font-bg) !important;
+}
+
+/* #footer-wrap {
+    background-color: var(--font-bg);
+} */
+
+#footer-wrap,
+#footer-wrap a {
+    color: var(--font-color)
+}
+
+#footer a {
+    color: var(--font-color);
+    transition: 0.3s ease-in-out;
+}
+#ft {
+    max-width: 1200px;
+    margin: 0 auto 12px;
+    display: flex;
+    color: var(--font-color) !important;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+#footer > * {
+    position: relative;
+    color: var(--font-color)!important
+}
+
+/* 自定义底部  End */
+
+
+/* #card-newest-comments img {border-radius: 10px; /* 设置最新评论圆角半径为10px，可以根据需要调整} */
+
+/* 说说轮播 */
+#bber-talk {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/* 说说轮播 */
+[data-theme=dark] #bber-talk {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/* 侧边栏个人信息卡片动态渐变色 */
+#aside-content>.card-widget.card-info {
+    position: relative;
+    z-index: 1; /* 确保原内容在上层显示 */
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+#aside-content > .card-widget.card-info::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, 
+		rgba(255, 255, 255, 0.0),
+		rgba(255, 255, 255, 0.3),
+		rgba(255, 255, 255, 0.6),
+		rgba(255, 255, 255, 0.7));
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    transition: opacity 0.8s; /* 过渡效果持续时间 */
+    z-index: -1;
+}
+
+[data-theme=dark] #aside-content > .card-widget.card-info::before {
+    background: linear-gradient(to bottom, 
+		rgba(24, 40, 72, .1),
+		rgba(35, 37, 58, .3),
+        rgba(35, 37, 58, .6),
+        rgba(24, 40, 72, .7));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#aside-content > .card-widget.card-info:hover::before {
+    opacity: 1;
+}
+/* 卡片动态效果，好好看哈哈 */
+#aside-content div.card-widget.card-info .avatar-img {
+    transition: opacity 0.3s ease; /* 添加渐变效果 */
+}
+
+
+
+#card-info-btn:hover, #card-info-btn:hover .icon, #card-info-btn:hover span {
+  transform: scale(1.1); /* 鼠标悬停时放大到110% */
+}
+
+[data-theme=dark] #aside-content>.card-widget.card-info {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .6),
+            rgba(35, 37, 58, .5),
+            rgba(35, 37, 58, .5),
+            rgba(24, 40, 72, .6));
+    backdrop-filter: blur(10px);
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/* 侧边栏公告栏卡片渐变色 */
+#aside-content>.card-widget.card-announcement {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] #aside-content>.card-widget.card-announcement {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/* 侧边栏目录最新文章卡片渐变色 */
+#aside-content>.sticky_layout>.card-widget {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] #aside-content>.sticky_layout>.card-widget {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/* 侧边栏欢迎卡片渐变色 */
+#aside-content>.card-widget.welcomeBoxClass {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] #aside-content>.card-widget.welcomeBoxClass {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/* 公告卡片渐变色 */
+#recent-posts>#noticeList {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] #recent-posts>#noticeList {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/* 个人信息Follow me按钮 */
+#aside-content>.card-widget.card-info>#card-info-btn {
+    background-color: #3eb8be;
+    border-radius: 10px;
+}
+
+/*文章页面*/
+.layout>#post {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] .layout>#post {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+
+[data-theme=dark] #recent-posts>.recent-post-item {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/*分类页面*/
+.layout>#page {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] .layout>#page {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+
+/*时间轴页面*/
+.layout>#archive {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] .layout>#archive {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/*分类点进去的页面*/
+.layout>#category {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] .layout>#category {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/*标签点进去的页面*/
+.layout>#tag {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] .layout>#tag {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    backdrop-filter: blur(10px); 
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+.layout.hide-aside {
+   max-width: 1200px;
+}
+
+/* 设置黑夜的时候，社交按钮和聊天名称为白色 */   h
+[data-theme=dark] .social-icon i {
+    color: rgba(188, 188, 188) !important; /* 设置为白色 */
+}
+[data-theme=dark] .chatName {
+    color: rgba(188, 188, 188); /* 设置为白色 */
+}
+[data-theme=dark] .section-title {
+    color: rgba(188, 188, 188, 0.5)!important; /* 设置为白色 */
+}
+
+/* 暗色模式下版权边框设置为白色 */
+[data-theme=dark] #post .post-copyright {
+    border-color: rgba(32, 37, 58, 0.3) !important;
+}
+/* 欢迎信息 */
+#welcome-info {
+  overflow: hidden;
+  --icat-card-welcome: #49b1f5;
+}
+#welcome-info .welcome-time {
+  width: 100%;
+  margin: 12px 0 0;
+  display: inline-flex;
+}
+#welcome-info .welcome-message {
+  width: 100%;
+  margin-bottom: 8px;
+  display: inline-flex;
+}
+#welcome-info .welcome-region {
+  background: var(--icat-background);
+  border: var(--style-border);
+  color: var(--icat-fontcolor);
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  margin: 6px 0;
+}
+
+/* 欢迎信息栏样式 */
+
+/*/* IP地址模糊效果 */
+.ip-address {
+  filter: blur(2px);
+  cursor: default;
+  transition: filter 0.5s ease;
+  color: #49b1f5;
+}
+
+.ip-address:hover {
+  filter: none;
+}
+
+/* 古诗词卡片 */
+#card-poem{
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem!important;
+  min-height: 130px;
+}
+
+div#poem_sentence{
+  text-align: center;
+  font-family: "Noto Serif SC", "Source Han Serif SC", serif;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: var(--eternity-secondbg);
+}
+
+div#poem_info{
+  display: flex;
+  font-size: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div#poem_author{
+  font-size: 0.8rem;
+  order: 1;
+  padding: 2px;
+  margin-left: 8px;
+}
+
+div#poem_dynasty{
+  font-size: 0.8rem;
+  order: 0;
+  padding: 2px 4px 2px 6px;
+  background: var(--eternity-card-btn-bg);
+  color: var(--eternity-fontcolor);
+  border-radius: 8px;
+}
+/* 加载动画 */
+.loading-img {
+  background: url(/favicon2.webp) no-repeat center center;
+  background-size: cover;
+}
+
+/* 版权信息居中显示 */
+.copyright {
+  text-align: center !important;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
